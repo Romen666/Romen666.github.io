@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>GPA</title>
+    <link rel="stylesheet" href="style/gpa.css">
+    <script>
+        function submit(){
+            window.location.href="https://www.baidu.com/";
+        }
+    </script>
+    <script src="js/gpa.js"></script>
+</head>
+<body>
+    <header>
+        <img style="width: 200px;height: 150px;float: left;margin-right: : 100px" src="image/campus.jpg">
+        <h1 style="text-align: center;font-size: 50px">Welcome to Romen University</h1>
+        <input type="text" style="height: 20px"><input onclick="submit()" type="button" value="search" style="height: 25px">
+    </header>
+             <div>
+        <nav id="nav_menu">
+    <ul>
+        <li style="margin-right: 90px"class="b2"><a href="index.html" class="b1">Home</a>
+            <ul>
+                <li><a href="#" class="b1">School</a></li>
+                <li><a href="#" class="b1">Index</a></li>
+                <li><a href="#" class="b1">Table</a></li>
+                <li><a href="#" class="b1">News</a></li>
+            </ul>
+        </li>
+        <li style="margin-right: 90px" class="b2"><a href="computer.html"  class="b1">Computer Science</a>
+            <ul>
+                <li><a href="#" class="b1" style="font-size: 15px">Program description</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Points of pride</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Degree to work</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Information</a></li>
+            </ul>
+        </li>
+        <li style="margin-right: 90px;font-size: 10px" class="b2"><a href="form.html" class="b1">Teaching Application</a>
+            <ul>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">About us </a></li>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Input information</a></li>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Email us</a></li>
+            </ul>
+        </li>
+        <li style="margin-right: 20px" class="b2"><a href="#" class="b1">Admission</a>
+            <ul>
+                <li class="b2"><a href="#" class="b1">Why Us?</a></li>
+                <li class="b2"><a href="#" class="b1">How to apply</a></li>
+                <li class="b2"><a href="#" class="b1">Popular problems</a></li>
+                <li class="b2"><a href="#" class="b1">Accomodation</a></li>
+                <li class="b2"><a href="#" class="b1">Student Service</a></li>
+                <li class="b2"><a href="#" class="b1">On-Line Apply</a></li>
+            </ul>
+        </li>
+        <li style="margin-right: 25px" class="b2"><a href="GPA.html" class="b1">Grades</a>
+        <ul>
+            <li class="b2"><a style="font-size: 12px" href="#" class="b1">Calculate grades</a></li>
+            <li class="b2"><a style="font-size: 12px" href="#" class="b1">Contact us</a></li>
+        </ul>
+        </li>
+            </ul>
+  </nav>
+    </div>
+    <main style="text-align: center">
+        <h1>GPA calculate tool</h1>
+        <table align="center">
+            <tr>
+                <td>Scores:</td>
+                <td><input type="text" id="scores"></td>
+            </tr>
+            <tr>
+                <td>hours:</td>
+                <td><input type="text" id="hours"></td>
+            </tr>
+        </table>
+      <table id="scores_table">
+        </table><br>
+        <input type="button" value="add" id="add"><input type="button" value="display" id="display"><input type="button" value="calculate" id="calculate">
+    </main>
+    <footer>
+        <img src="image/campus.jpg" style="width: 100px;height: 100px;margin-left: 50px;float: left;margin-right: 300px">
+        <ul style="list-style: none;float:left">
+            <li>Copyright:@Luomeng Liu</li>
+            <li>Contact:957914625</li>
+            <li>Postcode:430400</li>
+        </ul>
+        <img src="image/WeChat.jpg" style="width: 100px;height: 100px;margin-left: 200px">
+    </footer>
+  </body>
+  </html>
